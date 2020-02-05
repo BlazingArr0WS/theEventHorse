@@ -1,5 +1,6 @@
 {
-  "name": "componentize-1",
+  "homepage": "https://github.com/BlazingArr0WS/theEventHorse.git",
+  "name": "theeventhorse",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,8 @@
     "reactstrap": "^8.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
