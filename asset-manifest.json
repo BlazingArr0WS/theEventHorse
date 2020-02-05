@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/theEventHorse/static/css/main.cf1d025c.chunk.css",
+    "main.js": "/theEventHorse/static/js/main.7ccc152f.chunk.js",
+    "main.js.map": "/theEventHorse/static/js/main.7ccc152f.chunk.js.map",
+    "runtime-main.js": "/theEventHorse/static/js/runtime-main.dea543b0.js",
+    "runtime-main.js.map": "/theEventHorse/static/js/runtime-main.dea543b0.js.map",
+    "static/css/2.c6250e3a.chunk.css": "/theEventHorse/static/css/2.c6250e3a.chunk.css",
+    "static/js/2.8ef4a14c.chunk.js": "/theEventHorse/static/js/2.8ef4a14c.chunk.js",
+    "static/js/2.8ef4a14c.chunk.js.map": "/theEventHorse/static/js/2.8ef4a14c.chunk.js.map",
+    "index.html": "/theEventHorse/index.html",
+    "precache-manifest.60865000019793b30ef79bd64c6684aa.js": "/theEventHorse/precache-manifest.60865000019793b30ef79bd64c6684aa.js",
+    "service-worker.js": "/theEventHorse/service-worker.js",
+    "static/css/2.c6250e3a.chunk.css.map": "/theEventHorse/static/css/2.c6250e3a.chunk.css.map",
+    "static/css/main.cf1d025c.chunk.css.map": "/theEventHorse/static/css/main.cf1d025c.chunk.css.map",
+    "static/js/2.8ef4a14c.chunk.js.LICENSE.txt": "/theEventHorse/static/js/2.8ef4a14c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dea543b0.js",
+    "static/css/2.c6250e3a.chunk.css",
+    "static/js/2.8ef4a14c.chunk.js",
+    "static/css/main.cf1d025c.chunk.css",
+    "static/js/main.7ccc152f.chunk.js"
+  ]
+}
