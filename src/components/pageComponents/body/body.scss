@@ -1,0 +1,88 @@
+// @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+// meetup.com color : #f41940
+
+.MzFUpnbWQ7 {
+  height: 50vh;
+}
+
+.cA2o7fyGq3 {
+  text-align: center;
+  border: 3px solid #f41940;
+  border-radius: 5px 0px 5px 0px;
+  color: #f41940;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: auto;
+  transform: skewX(-10deg);
+}
+
+.ks6cOKBHyU {
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+}
+
+.zHnAOMcgnk {
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: #cecece47;
+}
+
+.wwZ2Vc6bYR {
+  border: 2px solid black;
+  font-family: "Oswald", sans-serif;
+  background-color: #e8e8e875;
+}
+
+.t4EPfIFIEg {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.UrW6jdzVcn {
+  background-color: transparent;
+}
+
+@media (min-width: 1300px) {
+  .JfqAAkqS9g {
+    line-height: 6;
+  }
+  .yyCQwHjJDp {
+    font-weight: bold;
+    font-size: 5rem;
+  }
+  .BfBrzbUawD {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1030px) {
+  .JfqAAkqS9g {
+    line-height: 3;
+  }
+  .yyCQwHjJDp {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .BfBrzbUawD {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 420px) {
+  .JfqAAkqS9g {
+    display: none;
+  }
+  .yyCQwHjJDp {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .BfBrzbUawD {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .wwZ2Vc6bYR {
+    height: 260px;
+  }
+}
