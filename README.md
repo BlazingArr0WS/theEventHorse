@@ -1,3 +1,3 @@
-# callEmAll
+# Call-Em-All
 
-## this is the web application challenge that you requested regarding events from reactjs-dallas
+## This is the web application challenge that you requested regarding events from reactjs-dallas.
