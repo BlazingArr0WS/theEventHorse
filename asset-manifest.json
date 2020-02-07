@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/theEventHorse/static/css/main.bdf5cd06.chunk.css",
-    "main.js": "/theEventHorse/static/js/main.c1f2f6a3.chunk.js",
-    "main.js.map": "/theEventHorse/static/js/main.c1f2f6a3.chunk.js.map",
+    "main.css": "/theEventHorse/static/css/main.c88d3fc1.chunk.css",
+    "main.js": "/theEventHorse/static/js/main.8c4a9f71.chunk.js",
+    "main.js.map": "/theEventHorse/static/js/main.8c4a9f71.chunk.js.map",
     "runtime-main.js": "/theEventHorse/static/js/runtime-main.dea543b0.js",
     "runtime-main.js.map": "/theEventHorse/static/js/runtime-main.dea543b0.js.map",
     "static/css/2.c6250e3a.chunk.css": "/theEventHorse/static/css/2.c6250e3a.chunk.css",
-    "static/js/2.53f54646.chunk.js": "/theEventHorse/static/js/2.53f54646.chunk.js",
-    "static/js/2.53f54646.chunk.js.map": "/theEventHorse/static/js/2.53f54646.chunk.js.map",
+    "static/js/2.7800737d.chunk.js": "/theEventHorse/static/js/2.7800737d.chunk.js",
+    "static/js/2.7800737d.chunk.js.map": "/theEventHorse/static/js/2.7800737d.chunk.js.map",
     "index.html": "/theEventHorse/index.html",
-    "precache-manifest.7a4997cfc977f3881e65483126af8f4c.js": "/theEventHorse/precache-manifest.7a4997cfc977f3881e65483126af8f4c.js",
+    "precache-manifest.ca742a029b66b7f354c9f0772f8fdefc.js": "/theEventHorse/precache-manifest.ca742a029b66b7f354c9f0772f8fdefc.js",
     "service-worker.js": "/theEventHorse/service-worker.js",
     "static/css/2.c6250e3a.chunk.css.map": "/theEventHorse/static/css/2.c6250e3a.chunk.css.map",
-    "static/css/main.bdf5cd06.chunk.css.map": "/theEventHorse/static/css/main.bdf5cd06.chunk.css.map",
-    "static/js/2.53f54646.chunk.js.LICENSE.txt": "/theEventHorse/static/js/2.53f54646.chunk.js.LICENSE.txt",
+    "static/css/main.c88d3fc1.chunk.css.map": "/theEventHorse/static/css/main.c88d3fc1.chunk.css.map",
+    "static/js/2.7800737d.chunk.js.LICENSE.txt": "/theEventHorse/static/js/2.7800737d.chunk.js.LICENSE.txt",
+    "static/media/facebook.svg": "/theEventHorse/static/media/facebook.de7648ef.svg",
     "static/media/hamburger.svg": "/theEventHorse/static/media/hamburger.bb600045.svg",
     "static/media/landingHeader.svg": "/theEventHorse/static/media/landingHeader.71977a80.svg",
-    "static/media/postCard.svg": "/theEventHorse/static/media/postCard.89a1cfb3.svg"
+    "static/media/linkedin.svg": "/theEventHorse/static/media/linkedin.5f510b1d.svg",
+    "static/media/postCard.svg": "/theEventHorse/static/media/postCard.89a1cfb3.svg",
+    "static/media/twitter.svg": "/theEventHorse/static/media/twitter.becc81be.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dea543b0.js",
     "static/css/2.c6250e3a.chunk.css",
-    "static/js/2.53f54646.chunk.js",
-    "static/css/main.bdf5cd06.chunk.css",
-    "static/js/main.c1f2f6a3.chunk.js"
+    "static/js/2.7800737d.chunk.js",
+    "static/css/main.c88d3fc1.chunk.css",
+    "static/js/main.8c4a9f71.chunk.js"
   ]
 }
