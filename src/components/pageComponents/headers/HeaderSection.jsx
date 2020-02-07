@@ -8,8 +8,8 @@ class HeaderSection extends React.Component {
       <>
         <section>
           <div className="Joj4rLACj0 row m-0">
-            <div className="col-xs-12 col-md-6">hi there</div>
-            <div className="col-xs-12 col-md-6">hi there again</div>
+            <div className="col-xs-12 col-md-6">filler for text or image</div>
+            <div className="col-xs-12 col-md-6">filler for text or image</div>
           </div>
           <img src={HeaderImage} alt="landingHeaderImage" />
         </section>

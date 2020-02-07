@@ -1,14 +1,15 @@
 import React from "react";
 import PostCard from "../../../assets/pageIllustrations/postCard.svg";
 import "./body.css";
+import ContactModal from "../modals/ContactModal";
+
+//////////////////////////////////////////////
+// https://blog.mailtrap.io/react-send-email/#Sending_emails_with_pure_React
+//////////////////////////////////////////////
 
 class ContactSection extends React.Component {
   state = {
-    formData: {
-      name: "",
-      email: "",
-      comments: ""
-    }
+    formData: []
   };
 
   onChange = e => {
@@ -23,6 +24,10 @@ class ContactSection extends React.Component {
   submitForm = e => {
     e.preventDefault();
     console.log(this.state.formData);
+    this.state.formData.map(contactInfo => (
+      <ContactModal contactInfo={contactInfo} />
+    ));
+    alert("Hello! I am an alert box!");
     document.getElementById("contact-form").reset();
   };
 
@@ -95,10 +100,10 @@ class ContactSection extends React.Component {
                   <div>
                     <button
                       type="button"
-                      className="btn submit ml-2 p-1 t4EPfIFIEg BfBrzbUawD"
+                      className="btn submit mt-2 t4EPfIFIEg BfBrzbUawD"
                       onClick={this.submitForm}
                     >
-                      Submit
+                      Send It!
                     </button>
                   </div>
                 </fieldset>
