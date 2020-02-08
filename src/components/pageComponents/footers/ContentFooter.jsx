@@ -40,13 +40,19 @@ const ContentFooter = () => {
                 </a>
               </div>
               <div className="col-4">FAQ</div>
-              <div className="col-4">About</div>
+              <div className="col-4">
+                <a href="/" className="eKovipmNBT">
+                  About
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-xs-12 col-md-4 p-4 text-center">
             <img src={Twitter} alt="twitterFooterIcon" height="50" />
-            <img src={FaceBook} alt="twitterFooterIcon" height="50" />
-            <img src={LinkedIn} alt="twitterFooterIcon" height="50" />
+            <img src={FaceBook} alt="facebookFooterIcon" height="50" />
+            <a href="https://www.linkedin.com/in/dakotaharmon/">
+              <img src={LinkedIn} alt="linkedInFooterIcon" height="50" />
+            </a>
           </div>
         </div>
         <div className="row m-0 border-top">

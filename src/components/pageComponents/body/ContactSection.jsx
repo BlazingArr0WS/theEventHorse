@@ -1,7 +1,7 @@
 import React from "react";
 import PostCard from "../../../assets/pageIllustrations/postCard.svg";
 import "./body.css";
-import ContactModal from "../modals/ContactModal";
+// import ContactModal from "../modals/EventModal";
 
 //////////////////////////////////////////////
 // https://blog.mailtrap.io/react-send-email/#Sending_emails_with_pure_React
@@ -24,9 +24,9 @@ class ContactSection extends React.Component {
   submitForm = e => {
     e.preventDefault();
     console.log(this.state.formData);
-    this.state.formData.map(contactInfo => (
-      <ContactModal contactInfo={contactInfo} />
-    ));
+    // this.state.formData.map(contactInfo => (
+    //   <ContactModal contactInfo={contactInfo} />
+    // ));
     alert("Hello! I am an alert box!");
     document.getElementById("contact-form").reset();
   };
