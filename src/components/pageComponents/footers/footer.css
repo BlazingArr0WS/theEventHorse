@@ -1,0 +1,41 @@
+.QrDkOQkJFp {
+  background-color: #f41940;
+  color: white;
+  line-height: 3;
+}
+
+.DHTdK5dfBE {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.NFjYObPSNY {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.eKovipmNBT {
+  color: #fff;
+}
+
+.eKovipmNBT:hover {
+  color: #fff;
+}
+
+@media (max-width: 450px) {
+  .zvtxy2ZorX {
+    display: none;
+  }
+}
+
+@media (max-width: 1030px) {
+  .V2gJWKRlxW {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

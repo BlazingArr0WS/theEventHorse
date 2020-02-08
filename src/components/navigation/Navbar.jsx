@@ -8,7 +8,6 @@ import {
   NavLink
 } from "reactstrap";
 import "./navigation.css";
-// import Logo from "../../assets/logos/LogoHorse.svg";
 import HamburgerIcon from "../../assets/icons/hamburger.svg";
 
 const NavBar = () => {
@@ -18,7 +17,6 @@ const NavBar = () => {
   return (
     <Navbar>
       <NavbarBrand href="/" className="mr-auto gMkfmzcfx2">
-        {/* <img src={Logo} alt="navBrandLogo" href="/" height="50" /> */}
         The Event Horse
       </NavbarBrand>
       <img
@@ -29,12 +27,14 @@ const NavBar = () => {
         alt="navbarToggler"
       />
       <Collapse isOpen={!collapsed} navbar>
-        <Nav navbar>
+        <Nav navbar className="h2N1FIQlJu">
           <NavItem>
-            <NavLink href="/components/">Components</NavLink>
+            <NavLink href="https://www.linkedin.com/in/dakotaharmon/">
+              About
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="https://github.com/reactstrap/reactstrap">
+            <NavLink href="https://github.com/BlazingArr0WS/theEventHorse">
               GitHub
             </NavLink>
           </NavItem>

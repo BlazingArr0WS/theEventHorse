@@ -4,11 +4,7 @@ import "./body.css";
 
 class ContactSection extends React.Component {
   state = {
-    formData: {
-      name: "",
-      email: "",
-      comments: ""
-    }
+    formData: []
   };
 
   onChange = e => {
@@ -22,8 +18,9 @@ class ContactSection extends React.Component {
 
   submitForm = e => {
     e.preventDefault();
-    console.log(this.state.formData);
     document.getElementById("contact-form").reset();
+    // this application is not setup with sendgrid, but if it were then this would send an email/message.
+    // for now it is just used to reset the form.
   };
 
   render() {
@@ -35,7 +32,6 @@ class ContactSection extends React.Component {
               <form
                 id="contact-form"
                 method="post"
-                // action="https://blazingarr0ws.github.io/theEventHorse/"
                 name="contactform"
                 className="m-auto"
               >
@@ -95,10 +91,10 @@ class ContactSection extends React.Component {
                   <div>
                     <button
                       type="button"
-                      className="btn submit ml-2 p-1 t4EPfIFIEg BfBrzbUawD"
+                      className="btn submit mt-2 t4EPfIFIEg BfBrzbUawD"
                       onClick={this.submitForm}
                     >
-                      Submit
+                      Send It!
                     </button>
                   </div>
                 </fieldset>
