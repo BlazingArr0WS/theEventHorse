@@ -1,10 +1,10 @@
 import React from "react";
 import { CardTitle, CardBody, CardText, Button } from "reactstrap";
 import PropTypes from "prop-types";
-import { Logger } from "aws-amplify";
+// import { Logger } from "aws-amplify";
 
-const logger = new Logger("App");
-window.LOG_LEVEL = "DEBUG";
+// const logger = new Logger("App");
+// window.LOG_LEVEL = "DEBUG";
 
 const wordCount = description => {
   let newStr = description
@@ -15,7 +15,7 @@ const wordCount = description => {
 };
 
 const EventCardTemplate = ({ eventData, viewRSVP }) => {
-  logger.info(eventData);
+  // logger.info(eventData);
   return (
     <div className="col-xs-12 col-md-4 p-0">
       <div className="col-12 yg7pERdUU6">

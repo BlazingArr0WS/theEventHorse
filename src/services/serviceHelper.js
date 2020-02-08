@@ -42,6 +42,6 @@ const onGlobalError = err => {
 // const API_HOST_PREFIX = process.env.REACT_APP_API_HOST_PREFIX;
 const API_HOST_PREFIX = "https://api.meetup.com";
 
-console.log("API_HOST_PREFIX", API_HOST_PREFIX);
+// console.log("API_HOST_PREFIX", API_HOST_PREFIX);
 
 export { onGlobalError, onGlobalSuccess, API_HOST_PREFIX };

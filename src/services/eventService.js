@@ -16,13 +16,12 @@ const getEvents = () => {
       "Access-Control-Allow-Methods": "GET",
       "Content-Type": "application/json"
     },
-    crossorigin: true,
     method: "GET",
     // withCredentials: true,
     mode: "cors",
     // url: `${endpointRoot}?&sign=true&photo-host=public&page=${eventQuantity}`,
-    url: `${endpointRoot}/reactjs-dallas/events?&sign=true&photo-host=public&page=20`
-    // crossdomain: true
+    url: `${endpointRoot}/reactjs-dallas/events?&sign=true&photo-host=public&page=20`,
+    crossdomain: true
   };
   return axios(config)
     .then(serviceHelper.onGlobalSuccess)
@@ -31,8 +30,16 @@ const getEvents = () => {
 
 const getRSVPById = eventId => {
   const config = {
+    headers: {
+      "Access-Control-Allow-Credentials": true,
+      "Access-Control-Allow-Origin": "*",
+      // "Access-Control-Allow-Origin": "http://localhost:3000/",
+      "Access-Control-Allow-Methods": "GET",
+      "Content-Type": "application/json"
+    },
     method: "GET",
-    headers: { "Content-Type": "application/json" },
+    // withCredentials: true,
+    mode: "cors",
     url: `${endpointRoot}/${eventId}/rsvps?&sign=true&photo-host=public`,
     crossdomain: true
   };

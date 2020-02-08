@@ -1,19 +1,10 @@
 import React from "react";
 import { Button, CardText, Modal, ModalHeader, ModalBody } from "reactstrap";
-// import { Map } from "../maps/LocationMap";
-require("dotenv").config();
-console.log(process.env);
+import PropTypes from "prop-types";
+import { Map } from "../maps/LocationMap";
 
 const EventModal = ({ event, showModal, toggleModal }) => {
   const mapModal = (eventData, i) => {
-    // let { lat, lon } = eventData;
-    // let coordinates = {
-    //   lat,
-    //   lon,
-    //   isMarkerShown: true
-    // };
-    // lat: 33.11103820800781
-    // lon: -96.81715393066406
     return (
       <Modal key={`eventModal_${i}`} isOpen={showModal}>
         <ModalHeader>
@@ -85,24 +76,22 @@ const EventModal = ({ event, showModal, toggleModal }) => {
               ? eventData.venue.localized_country_name
               : " "}
           </CardText>
-          {/* <iframe
-            title="eventMap"
-            src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13315.703089314235!2d-117.60844799999998!3d33.451240350000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcf39bdfb67a35%3A0x2216b9be49e4c809!2sLowe's%20Home%20Improvement!5e0!3m2!1sen!2sus!4v1581130768753!5m2!1sen!2sus`}
-            width={400}
-            height={300}
-            frameBorder={0}
-            style={{ border: 0 }}
-            allowFullScreen
-          /> */}
-          {/* <Map
-            location={coordinates}
-            // googleMapUrl={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_API_KEY}`}
-            googleMapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13315.703089314235!2d-117.60844799999998!3d33.451240350000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcf39bdfb67a35%3A0x2216b9be49e4c809!2sLowe's%20Home%20Improvement!5e0!3m2!1sen!2sus!4v1581130768753!5m2!1sen!2sus"
+          <Map
+            googleMapURL={process.env.REACT_APP_GOOGLE_API_KEY}
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `400px` }} />}
             mapElement={<div style={{ height: `100%` }} />}
-          /> */}
-          <Button className="cfknnv5ov4" onClick={toggleModal}>
+            latitude={eventData.venue.lat}
+            longitude={eventData.venue.lon}
+            zoom={12}
+            coords={[
+              {
+                latitude: eventData.venue.lat,
+                longitude: eventData.venue.lon
+              }
+            ]}
+          />
+          <Button className="cfknnv5ov4 mt-3" onClick={toggleModal}>
             Close
           </Button>
         </ModalBody>
@@ -113,3 +102,30 @@ const EventModal = ({ event, showModal, toggleModal }) => {
   return <>{event.map(mapModal)}</>;
 };
 export default EventModal;
+
+EventModal.propTypes = {
+  event: PropTypes.shape({
+    name: PropTypes.string,
+    status: PropTypes.string,
+    link: PropTypes.string,
+    description: PropTypes.string,
+    yes_rsvp_count: PropTypes.number,
+    rsvp_limit: PropTypes.number,
+    waitlist_count: PropTypes.number,
+    group: PropTypes.shape({
+      who: PropTypes.string,
+      localized_location: PropTypes.string
+    }),
+    venue: PropTypes.shape({
+      lat: PropTypes.number,
+      lon: PropTypes.number,
+      address_1: PropTypes.string,
+      city: PropTypes.string,
+      state: PropTypes.string,
+      zip: PropTypes.string,
+      localized_country_name: PropTypes.string
+    })
+  }),
+  showModal: PropTypes.func,
+  toggleModal: PropTypes.func
+};

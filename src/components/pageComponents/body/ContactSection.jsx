@@ -1,11 +1,6 @@
 import React from "react";
 import PostCard from "../../../assets/pageIllustrations/postCard.svg";
 import "./body.css";
-// import ContactModal from "../modals/EventModal";
-
-//////////////////////////////////////////////
-// https://blog.mailtrap.io/react-send-email/#Sending_emails_with_pure_React
-//////////////////////////////////////////////
 
 class ContactSection extends React.Component {
   state = {
@@ -23,12 +18,9 @@ class ContactSection extends React.Component {
 
   submitForm = e => {
     e.preventDefault();
-    console.log(this.state.formData);
-    // this.state.formData.map(contactInfo => (
-    //   <ContactModal contactInfo={contactInfo} />
-    // ));
-    alert("Hello! I am an alert box!");
     document.getElementById("contact-form").reset();
+    // this application is not setup with sendgrid, but if it were then this would send an email/message.
+    // for now it is just used to reset the form.
   };
 
   render() {
@@ -40,7 +32,6 @@ class ContactSection extends React.Component {
               <form
                 id="contact-form"
                 method="post"
-                // action="https://blazingarr0ws.github.io/theEventHorse/"
                 name="contactform"
                 className="m-auto"
               >

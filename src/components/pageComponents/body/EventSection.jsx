@@ -1,10 +1,10 @@
 import React from "react";
 import "./body.css";
 import * as eventServices from "../../../services/eventService";
-import { Logger } from "aws-amplify";
 import EventCardTemplate from "./EventCardTemplate";
 import eventBoard from "../../../assets/pageIllustrations/eventBoard.svg";
 import EventModal from "../../../components/pageComponents/modals/EventModal";
+import { Logger } from "aws-amplify";
 
 const logger = new Logger("App");
 window.LOG_LEVEL = "DEBUG";
