@@ -16,7 +16,10 @@ const NavBar = () => {
   const toggleNavbar = () => setCollapsed(!collapsed);
   return (
     <Navbar>
-      <NavbarBrand href="/" className="mr-auto gMkfmzcfx2">
+      <NavbarBrand
+        href="https://blazingarr0ws.github.io/theEventHorse/"
+        className="mr-auto gMkfmzcfx2"
+      >
         The Event Horse
       </NavbarBrand>
       <img
