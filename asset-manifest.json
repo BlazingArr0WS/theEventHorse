@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/theEventHorse/static/css/main.9d437642.chunk.css",
-    "main.js": "/theEventHorse/static/js/main.41f1d987.chunk.js",
-    "main.js.map": "/theEventHorse/static/js/main.41f1d987.chunk.js.map",
+    "main.css": "/theEventHorse/static/css/main.9bb4e54d.chunk.css",
+    "main.js": "/theEventHorse/static/js/main.18bff18e.chunk.js",
+    "main.js.map": "/theEventHorse/static/js/main.18bff18e.chunk.js.map",
     "runtime-main.js": "/theEventHorse/static/js/runtime-main.dea543b0.js",
     "runtime-main.js.map": "/theEventHorse/static/js/runtime-main.dea543b0.js.map",
     "static/css/2.c6250e3a.chunk.css": "/theEventHorse/static/css/2.c6250e3a.chunk.css",
-    "static/js/2.3d92b886.chunk.js": "/theEventHorse/static/js/2.3d92b886.chunk.js",
-    "static/js/2.3d92b886.chunk.js.map": "/theEventHorse/static/js/2.3d92b886.chunk.js.map",
+    "static/js/2.d8131009.chunk.js": "/theEventHorse/static/js/2.d8131009.chunk.js",
+    "static/js/2.d8131009.chunk.js.map": "/theEventHorse/static/js/2.d8131009.chunk.js.map",
     "index.html": "/theEventHorse/index.html",
-    "precache-manifest.b3115474f8a11175ffd06afa112a3481.js": "/theEventHorse/precache-manifest.b3115474f8a11175ffd06afa112a3481.js",
+    "precache-manifest.0090c9a7f909457f3c97a56de0eb7c40.js": "/theEventHorse/precache-manifest.0090c9a7f909457f3c97a56de0eb7c40.js",
     "service-worker.js": "/theEventHorse/service-worker.js",
     "static/css/2.c6250e3a.chunk.css.map": "/theEventHorse/static/css/2.c6250e3a.chunk.css.map",
-    "static/css/main.9d437642.chunk.css.map": "/theEventHorse/static/css/main.9d437642.chunk.css.map",
-    "static/js/2.3d92b886.chunk.js.LICENSE.txt": "/theEventHorse/static/js/2.3d92b886.chunk.js.LICENSE.txt",
+    "static/css/main.9bb4e54d.chunk.css.map": "/theEventHorse/static/css/main.9bb4e54d.chunk.css.map",
+    "static/js/2.d8131009.chunk.js.LICENSE.txt": "/theEventHorse/static/js/2.d8131009.chunk.js.LICENSE.txt",
     "static/media/calendar.svg": "/theEventHorse/static/media/calendar.e4f71b8f.svg",
-    "static/media/eventBoard.svg": "/theEventHorse/static/media/eventBoard.22822fb5.svg",
+    "static/media/eventBoard.svg": "/theEventHorse/static/media/eventBoard.1fddd41f.svg",
     "static/media/facebook.svg": "/theEventHorse/static/media/facebook.de7648ef.svg",
     "static/media/hamburger.svg": "/theEventHorse/static/media/hamburger.bb600045.svg",
     "static/media/landingHeader.svg": "/theEventHorse/static/media/landingHeader.71977a80.svg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.dea543b0.js",
     "static/css/2.c6250e3a.chunk.css",
-    "static/js/2.3d92b886.chunk.js",
-    "static/css/main.9d437642.chunk.css",
-    "static/js/main.41f1d987.chunk.js"
+    "static/js/2.d8131009.chunk.js",
+    "static/css/main.9bb4e54d.chunk.css",
+    "static/js/main.18bff18e.chunk.js"
   ]
 }
