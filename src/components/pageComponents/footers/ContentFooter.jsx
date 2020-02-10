@@ -35,13 +35,13 @@ const ContentFooter = () => {
               <div className="col-4">Browse</div>
               <div className="col-4">Help</div>
               <div className="col-4">
-                <a href="/" className="eKovipmNBT">
+                <a href="https://blazingarr0ws.github.io/theEventHorse/" className="eKovipmNBT">
                   Home
                 </a>
               </div>
               <div className="col-4">FAQ</div>
               <div className="col-4">
-                <a href="/" className="eKovipmNBT">
+                <a href="https://blazingarr0ws.github.io/theEventHorse/" className="eKovipmNBT">
                   About
                 </a>
               </div>
